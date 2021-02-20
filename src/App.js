@@ -5,15 +5,7 @@ import BlogPost from './BlogPost';
 
 const App = () => {
     return (
-        <>
-            <Paper elevation={3}>
-                <BlogPost />
-            </Paper>
-            <br></br>
-            <Paper elevation={3}>
-                <BlogPost />
-            </Paper>
-        </>
+        <BlogPost />
     )
 }
 
